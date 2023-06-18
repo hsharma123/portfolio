@@ -1,0 +1,55 @@
+.home{
+    &-page{
+           height: 100%;
+            width: 100%;
+           min-height: 100vh;
+            background-color: $brand;
+            background-image: linear-gradient(
+              43deg,
+              $brand,
+              $secondary 46%,
+              $yellow 100%
+            );
+            &-text{
+                padding-top: 120px;
+                font-size: 2.4em;
+                color: $text-color;
+                font-weight: 600;
+                letter-spacing: 1px;
+            }
+            &-name{
+                font-size: 2em;
+                color: $text-color;
+                font-weight: 600;
+                letter-spacing: 1px;
+            }
+          }
+    }
+.row {
+    padding-top: 8rem;
+  }
+  .developer-image{
+    background-image: url(../Images/Web-designer.webp);
+    background-position: 50%;
+    background-size: cover;
+    height: 400px;
+    margin-top: 50px;
+    max-width: 550px;
+  }
+
+  .icon{
+    font-size: 30px;
+  }
+  
+  .Typewriter__wrapper {
+    font-size: 1.6em !important;
+    color: $text-color !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+  }
+  .Typewriter__cursor {
+    font-size: 2em !important;
+    color: $text-color !important;
+  }
+
+  

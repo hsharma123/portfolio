@@ -1,0 +1,39 @@
+.project{
+    &-section{
+        position: relative;
+        padding-top: 10px;
+    }
+    &-card{
+        padding-top: 20px;
+        padding-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+        height: auto;
+        
+        &-view{
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+            color: $text-color;
+            background-color: transparent;
+            border: transparent;
+            opacity: 0.9;
+            transition: all 0.5s ease 0s;
+            height: 100%;
+            border-radius: 15px;
+            padding-bottom: 15px;
+            &:hover{
+                transform: scale(1.02);
+                overflow: hidden;
+                box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+                    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+            }
+        }
+        
+    }
+}
+.card-img-top {
+    padding: 20px;
+    opacity: 0.8;
+    border-radius: 10px;
+ }
+
+ 

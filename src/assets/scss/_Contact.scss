@@ -1,0 +1,40 @@
+.contact{
+    &-head{
+        padding-top: 3rem;
+        text-align: center;
+        font-size: 2.4rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    &-para{
+        padding-top: 1rem;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding-bottom: 1rem;
+    }
+    &-btn{
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        height: 50px;
+        border: solid 2px;
+        background-color: transparent;
+        letter-spacing: 2px;
+        &:hover{
+            background-color: rgba(51, 51, 51, 0.2);
+        }
+    }
+}
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 12px;
+  }
+.copyright span{
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}

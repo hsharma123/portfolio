@@ -1,0 +1,41 @@
+$brand: #4158d0;
+$secondary: #c850c0;
+$yellow: #ffcc70;
+$white: #fff;
+$text-color: #000;
+$box-shadow: rgba(17, 17, 26, 0.1);
+/*---- Default Classies ----*/
+
+.text {
+    &-primary {
+        color: $brand !important;
+    }
+    &-secondary {
+        color: $secondary !important;
+    }
+ 
+    &-link {
+        text-decoration: underline;
+        color: $brand;
+        &:hover {
+            color: $secondary;
+        }
+    }
+}
+
+/*---- Background Colors ----*/
+.bg {
+    &-primary {
+        background-color: $brand !important;
+    }
+    &-secondary {
+        background-color: $secondary !important;
+    }
+    &-md {
+        @media (min-width: 768px) {
+            &-secondary {
+                background-color: $secondary !important;
+            }
+        }
+    }
+}
