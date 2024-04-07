@@ -7,6 +7,10 @@
         background-color: transparent !important;
         border-color: #e8e8e8 !important;
     }
+    &:focus{
+      box-shadow: none !important;
+    
+    }
 }
 .social-btn{
   margin-top: 2rem;
