@@ -4,29 +4,37 @@ import Genesis from '../../assets/Images/genesis.jpg';
 import Dap from '../../assets/Images/dial-a-physio.jpg';
 import Das from '../../assets/Images/DAS.jpg';
 import wbs from '../../assets/Images/wbs.jpg';
-import youtube from '../../assets/Images/youtube.jpg';
 import Case from '../../assets/Images/Case.jpg';
-import ecommerce from '../../assets/Images/ecommerce.png';
+import powervision from '../../assets/Images/powervision.jpg';
+import nn from '../../assets/Images/nn-plus.jpg';
+import shalom from '../../assets/Images/shalom.jpg';
+
 
 const projectData = [
+     {
+        imgPath: powervision,
+        title: 'Powervision Television',
+        description: "Powervision TV broadcasts a variety of programs 24 hours a day with a simple, and expressive style conveying the message of salvation to people's hearts.With the current fluctuations of social and political conditions, evangelism becomes more challenging in the present time. Since it has been becoming more difficult to even distribute Gospel tracts, we have pledged to deliver Gospel to the fingertips through the use of new technology bringing it to every living room and through the means of Mobile application .Powervision Media Ministry diligently works around the globe helping those around the world struggling with darkness of sin offering good news of Jesus Christ.",
+        ghLink: "https://www.powervisionott.com/",
+      },
+    {
+        imgPath: nn,
+        title: "NN Plus",
+        description: "NN Plus, is an Indian Infotainment subscription-based over-the-top (OTT) media platform based out of Noida, India. This Platform is launched in 2024. NN Plus offers an exhaustive array of content In different categories, Including Food, Music, Entertainment, Infotainment, Documentaries, Devotional, tech Etc. We offer a comfortable and friendly user experience with highly evolved video streaming technology at amazing speed and clear sounds. Seamless Video playback, Smart Content Search & recommendation, option to choose video quality, Ad Free video and much more to create a video experience like no other. All you need is a compatible connected device to watch Exclusive Content. Tune into NN Plus now.",
+        ghLink: "https://www.nnplus.in/",
+    },
+    {
+        imgPath: shalom,
+        title: "shalom Television",
+        description: "Welcome to Shalom TV, the ultimate destination for enriching Catholic Christian content. Our app is dedicated to bringing you a curated selection of religious programs aimed at nurturing and uplifting souls in their faith journey. Immerse yourself in a world of spiritual enlightenment and find solace in the teachings of the Catholic Church.",
+        ghLink: "https://ott.shalomtv.tv/",
+    },
     {
         imgPath: Case,
         title: "Case Converter",
         description: " This website proper in react framework. Whether you need to convert your text to uppercase, lowercase, title case, sentence case, or even camel case, CaseConverter Website has got you covered.",
         ghLink: "https://himanshu-case.netlify.app/",
     },
-    {
-        imgPath: youtube,
-        title: "Youtube Clone",
-        description: "Created youtube clone using the react framework and tailwind css framework also use axios to create a new card using rapid api and fully responsive. use state management for manage the state.",
-        ghLink: "https://tumate.netlify.app/",
-    },
-    {
-        imgPath: ecommerce,
-        title: 'Ecommerce Website',
-        description: 'This is an ecommerce website. It features a user-friendly interface, product catalog, checkout process. The website also includes features  wishlists, and product filter, price filter, enhance the overall shopping experience. also react technology use in this website.',
-        ghLink: "https://himanshuecomerce.netlify.app/",
-      },
     {
         imgPath: acma,
         title: "Acma",

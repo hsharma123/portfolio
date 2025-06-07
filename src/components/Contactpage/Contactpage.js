@@ -19,7 +19,7 @@ const Contactpage = () => {
         </button>
         <span></span>
         <p className="copyright">
-            © Copyright 2023
+            © Copyright 2025
             <hr />
             Designed & Built by <span>Himanshu Sharma</span>
         </p>
